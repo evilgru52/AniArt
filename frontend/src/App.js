@@ -1,7 +1,8 @@
-import Wave from "./Wave.svg";
+import Wave from "./Wave.js";
+
 function App() {
   return (
-    <div className="container" style={{ backgroundImage: "./Wave.svg" }}>
+    <div className="container" style={{ backgroundImage: "" }}>
       <div className="row">
         <div
           className="col-sm-12 col-lg-12 imageDisplay"
