@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.imageDisplay {
+  box-shadow: 4.3px 3.4px 2.2px rgba(0, 0, 0, 0.048),
+    10.2px 8.1px 5.4px rgba(0, 0, 0, 0.069),
+    19.3px 15.3px 10.1px rgba(0, 0, 0, 0.085),
+    34.4px 27.3px 18.1px rgba(0, 0, 0, 0.101),
+    64.3px 51px 33.8px rgba(0, 0, 0, 0.122),
+    154px 122px 81px rgba(0, 0, 0, 0.17);
+
+  height: 70vh;
+  border-radius: 10% 10% 8% 8% / 10% 10% 8% 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 992px) {
+  .imageDisplay {
+    border-radius: 0% 0% 8% 8% / 10% 10% 8% 8%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.addCommentDiv {
+  margin-top: 10px;
+  height: 3em;
+  border-radius: 2em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.addComment {
+  outline: none !important;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  width: 80%;
+  height: 100%;
 }
