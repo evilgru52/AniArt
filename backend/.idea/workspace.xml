@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4013bf0-ee0e-42ca-98c1-264a0930b727" name="Changes" comment="added fonts and updated meta data">
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d4013bf0-ee0e-42ca-98c1-264a0930b727" name="Changes" comment="Added CSS for ImageDisplayComponent">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +42,8 @@
       <workItem from="1645859352783" duration="1499000" />
       <workItem from="1645879684709" duration="1221000" />
       <workItem from="1645971424497" duration="1190000" />
-      <workItem from="1646499109810" duration="363000" />
+      <workItem from="1646499109810" duration="707000" />
+      <workItem from="1646555205412" duration="1240000" />
     </task>
     <task id="LOCAL-00001" summary="Removed From the project">
       <created>1646499244146</created>
@@ -89,7 +80,49 @@
       <option name="project" value="LOCAL" />
       <updated>1646499448679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="instantiated the server and added req packages">
+      <created>1646499496604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499496604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added backend details">
+      <created>1646499606953</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499606953</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added required packages">
+      <created>1646499623643</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499623643</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed unwanted imports">
+      <created>1646499664701</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499664701</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Made ImageDisplayComponent UI">
+      <created>1646499789749</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499789749</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added CSS for ImageDisplayComponent">
+      <created>1646499805497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646499805497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +145,12 @@
     <MESSAGE value="added wave.svg" />
     <MESSAGE value="removed from project" />
     <MESSAGE value="added fonts and updated meta data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added fonts and updated meta data" />
+    <MESSAGE value="instantiated the server and added req packages" />
+    <MESSAGE value="added backend details" />
+    <MESSAGE value="added required packages" />
+    <MESSAGE value="removed unwanted imports" />
+    <MESSAGE value="Made ImageDisplayComponent UI" />
+    <MESSAGE value="Added CSS for ImageDisplayComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CSS for ImageDisplayComponent" />
   </component>
 </project>
