@@ -1,4 +1,5 @@
 import ImageCard from "../components/ImageCard";
+import Navbar from "../components/Navbar";
 import { postDetails } from "../Others/Data";
 function PostsDisplay() {
   return (
