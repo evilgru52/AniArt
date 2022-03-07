@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4013bf0-ee0e-42ca-98c1-264a0930b727" name="Changes" comment="Added UI photos">
-      <change afterPath="$PROJECT_DIR$/../others/AniArt (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../others/AniArt (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../others/AniArt.png" afterDir="false" />
+    <list default="true" id="d4013bf0-ee0e-42ca-98c1-264a0930b727" name="Changes" comment="Added readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/PostsDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/PostsDisplay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="backend-prateek" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../CryptoNaukri/cryptonaukri-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,7 +48,9 @@
       <workItem from="1645971424497" duration="1190000" />
       <workItem from="1646499109810" duration="707000" />
       <workItem from="1646555205412" duration="1523000" />
-      <workItem from="1646583545503" duration="330000" />
+      <workItem from="1646583545503" duration="1480000" />
+      <workItem from="1646667224668" duration="596000" />
+      <workItem from="1646668796578" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="Removed From the project">
       <created>1646499244146</created>
@@ -186,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646583874069</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added readme.md">
+      <created>1646584017266</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1646584017266</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added readme.md">
+      <created>1646584284091</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1646584284091</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +242,7 @@
     <MESSAGE value="Separated ImageCard And Comment Part" />
     <MESSAGE value="Added background for posts display" />
     <MESSAGE value="Added UI photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added UI photos" />
+    <MESSAGE value="Added readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme.md" />
   </component>
 </project>

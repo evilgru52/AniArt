@@ -1,7 +1,13 @@
+import Navbar from "./components/Navbar";
 import PostsDisplay from "./pages/PostsDisplay";
 
 function App() {
-  return <PostsDisplay />;
+  return (
+    <>
+      <Navbar />
+      <PostsDisplay />
+    </>
+  );
 }
 
 export default App;
