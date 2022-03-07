@@ -1,6 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ImageCardPart() {
+  const [liked, setLiked] = useState(false);
+  const onLike = () => {
+    setLiked(!liked);
+  };
+
+  const LikeDisplayComponent = () => {
+    return (
+      <>
+        {!liked ? (
+          <i
+            className="far fa-heart"
+            style={{ fontSize: "3em" }}
+            onClick={onLike}
+          ></i>
+        ) : (
+          <i
+            className="fas fa-heart"
+            style={{ fontSize: "3em" }}
+            onClick={onLike}
+          ></i>
+        )}
+      </>
+    );
+  };
   return (
     <>
       <div
@@ -42,12 +66,12 @@ function ImageCardPart() {
             <h4>Drawing By</h4>
           </div>
           <div
-            className="col-sm-12 col-lg-6 text-center"
+            className="col-sm-12 col-lg-3 text-center"
             style={{ marginTop: "10px" }}
           >
-            <i className="far fa-heart" style={{ fontSize: "3em" }}></i>
+            <LikeDisplayComponent />
           </div>
-          <div className="col-sm-12 col-lg-6 text-center">
+          <div className="col-sm-12 col-lg-9 text-center">
             <div className="addCommentDiv">
               <input
                 className="addComment"
