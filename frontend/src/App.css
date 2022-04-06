@@ -58,6 +58,7 @@
   position: relative;
   color: #273036;
   cursor: grab;
+  margin: 10px;
 }
 
 .loadCommentText:after {
