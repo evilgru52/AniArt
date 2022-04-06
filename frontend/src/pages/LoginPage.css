@@ -1,0 +1,99 @@
+.loginText {
+  font-family: Pacifio, cursive;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.loginTextBoxOne {
+  min-height: 100vh;
+}
+.loginTextBoxTwo {
+  min-height: 100vh;
+}
+.loginBoxParent {
+  background-image: url("https://wallpapercave.com/wp/wp5348399.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+.loginBox {
+  width: 80%;
+  border-radius: 29px;
+  box-shadow: 35px 35px 70px #aaaaaa, -35px -35px 70px #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+
+.loginInput {
+  width: 70%;
+  margin: 1em;
+  height: 2.5em;
+  font-weight: bold;
+  font-family: Fredoka One, cursive;
+  font-size: larger;
+  border-radius: 0.5em;
+  border: 1px solid gray;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+.loginInput :focus {
+  border: 2px solid black;
+}
+.loadCommentText {
+  display: inline-block;
+  position: relative;
+  color: #273036;
+  cursor: grab;
+}
+
+.loadCommentText:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #273036;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.loadCommentText:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.loginButton {
+  margin: 1em;
+}
+
+@media (max-width: 992px) {
+  .loginBoxParent {
+    background-size: cover;
+  }
+  .loginBox {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .loginInput {
+    width: 85%;
+  }
+  .loginTextBoxOne {
+    min-height: 10vh;
+  }
+  .loginTextBoxTwo {
+    min-height: 80vh;
+  }
+  .loginText {
+    margin-top: 25px;
+  }
+}
