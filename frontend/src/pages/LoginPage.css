@@ -40,7 +40,7 @@
 }
 
 .loginInput :focus {
-  border: 2px solid black;
+  border: 5px solid black;
 }
 .loadCommentText {
   display: inline-block;
