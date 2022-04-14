@@ -1,0 +1,65 @@
+.mainSignupContainer {
+  min-height: 100vh;
+  background-image: url("https://i.redd.it/pljwd1brdpp81.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.signupText {
+  font-family: Pacifio, cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 1em;
+}
+
+.signupBox {
+  width: 50%;
+  border-radius: 29px;
+  box-shadow: 35px 35px 70px #2f2f2f, -35px -35px 70px #2f2f2f;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+}
+.loginInput {
+  width: 70%;
+  margin: 1em;
+  height: 2.5em;
+  font-weight: bold;
+  font-family: Fredoka One, cursive;
+  font-size: larger;
+  border-radius: 0.5em;
+  border: 1px solid gray;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+}
+
+.loginInput :focus {
+  border: 5px solid black;
+}
+
+@media (max-width: 992px) {
+  .signupBox {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 35px 35px 70px #2f2f2f, -35px -35px 70px #2f2f2f;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  .loginInput {
+    width: 85%;
+  }
+  .loginTextBoxOne {
+    min-height: 10vh;
+  }
+  .loginTextBoxTwo {
+    min-height: 80vh;
+  }
+  .loginText {
+    margin-top: 25px;
+  }
+}
